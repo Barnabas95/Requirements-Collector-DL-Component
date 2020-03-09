@@ -1,0 +1,389 @@
+22	 Dang right I will.	NULL
+741	 That's a problem, because they're editing it, and they're changing values, and then we're going, "Nope!" And putting them right back.	A
+181	 Normally, what we've done in the past is, we would be able to split that order so you would be able to push through and process  available. Create  a different order for the one that was not in stock. You would put in for that order's status.	F
+2499	 OK, he's on a CTDI call which...Apparently, he wanted me to talk to you guys about...it may be a table field model, and then its DISTOCD, it's in regard to warehousing  warehouses. Brian, he's saying that we either need a copy of that data or if there's a place in LCAM to store it. I'll send that to you via email, but apparently, he just wanted me to bring that up.	F
+24	 Of course.	NULL
+718	 Kevin and Drake's got modify the retail notifications that handle non-sterilized equipment, and to modify received equipment that handle non-sterilized equipment.	F
+990	 So you're saying that you've received new equipment  by looking at the wires? By wired information? But you haven't seen any of that evidence in LCAM, is that right?	A
+46	  .	NULL
+223	 Yeah, I've done that. We're working on where that might be confusing. And the other item, I don't know if we've had it out there before, but the  group, and, well, both groups, I don't know if it's on anything, but CLLI code with the wild card...That's a big request.	F
+181	 Normally, what we've done in the past is, we would be able to split that order so you would be able to push through and process  available. Create  a different order for the one that was not in stock. You would put in for that order's status.	F
+742	 That, to me, is a show-stopper type of an issue, even though the value is not horribly, horribly important. It's like parent amount position and parent  . Is this reverting back to amount position in a  in another location? And there was something else.	F
+4697	 The drop-downs don't have drop-downs in them, so you can't filter by the drop-downs on the grid.	A
+37	 I could finish that story up if I could just...	NULL
+20	 Should already be indexed. I'll build that from  second merge is done.	NULL
+30	 Yeah, that'll knock some time off. Not having to update the tester.	NULL
+1101	 Allowing them to search by receive dates. I think receive date is already displaying on the screen. We just don't allow them to search by it. I'm not sure if you need to bring it up. Because I don't know if anybody  or not.	F
+10	 No, that's what 1.1 is doing.	NULL
+990	 So you're saying that you've received new equipment  by looking at the wires? By wired information? But you haven't seen any of that evidence in LCAM, is that right?	A
+27	 You'll add a task on that one. Who thinks he can get this done? For one thing, because, like I told him, I don't care if the tester gets updated because it needs to be tested with CTDI next week anyway.	NULL
+1163	 The other thing that they're doing is change multiple frame ID's and put a  in them, so this is the one...Search assets and then just pick a frame...	F
+537	 It was quite a while ago, and to be honest, it could have been you that said it or somebody else. Neither here nor there. That's the next barrier I'm coming across, is I need to know whether or not the G team's ship-to code is indeed a valid ship-to code for those locations that are in the extract. If they are, I'll need those addresses. I really just don't know where to find them, if they are in the extract or not.	F
+13	 You did. Last week. We tested some of it.	NULL
+2	 I'm here. I am desperately trying to get the board to show up.	NULL
+37	 I could finish that story up if I could just...	NULL
+166	 An example would be of, it's like a forward stocking, LCAM says it's out there, but then when we talk tech with  , the packet is not there, or some some situation that can't use that. They can't go back and change it to pick it up in stock.	A
+13	 You did. Last week. We tested some of it.	NULL
+21	 So you don't have any updates on these because you spent the whole day doing other practice for the area. Are going to get finished before next Friday?	NULL
+1101	 Allowing them to search by receive dates. I think receive date is already displaying on the screen. We just don't allow them to search by it. I'm not sure if you need to bring it up. Because I don't know if anybody  or not.	A
+36	 Yeah. Well, that's life.	NULL
+1164	 So, it's different CLLIs. So, if I say I want to do these different CLLIs and I want to update the frame, because you can't. So, this story is to not throw that error message, so that they can update frames across CLLIs.	F
+23	  Is it going to be right?	NULL
+709	 Other things, and including the remote. I had received messages are now coming in from  ...So, I had a bunch of those. This is  screen. I got it down, from 203, I got it down to 60, that they're going to have to look at.	F
+28	 So if you can just get it done and then test with them and fix anything, then update the tester after the fact so that somebody can actually test against it, we could get away with that this time if we can get it in.	NULL
+4697	 The drop-downs don't have drop-downs in them, so you can't filter by the drop-downs on the grid.	A
+39	 If I could get an hour and a half, two hours together. I could finish that one. I'll finish today.	NULL
+16	 Do we need to...?	NULL
+27	 You'll add a task on that one. Who thinks he can get this done? For one thing, because, like I told him, I don't care if the tester gets updated because it needs to be tested with CTDI next week anyway.	NULL
+35	 Mamma has spoken.	NULL
+41	 Now you've put the pressure on me. Now I can't do it.	NULL
+14	 Yeah but this is not that 1.1. I'll do 1.1 in a bit. A 1.1 build later today. I'll deploy it for you.	NULL
+165	 Like  , I don't have email in front of me, but basically you've got a high level...Susan's team, I guess when they go in there to do the approval. Pretty much the status is already set, so they're restricted, and can't redo something.	A
+16	 Do we need to...?	NULL
+741	 That's a problem, because they're editing it, and they're changing values, and then we're going, "Nope!" And putting them right back.	A
+2499	 OK, he's on a CTDI call which...Apparently, he wanted me to talk to you guys about...it may be a table field model, and then its DISTOCD, it's in regard to warehousing  warehouses. Brian, he's saying that we either need a copy of that data or if there's a place in LCAM to store it. I'll send that to you via email, but apparently, he just wanted me to bring that up.	A
+711	 Just as long as there's  have to see  , we can give them an update on that this morning. They need to look at those 60 that are left, because they can't  FTR serial numbers.  .	F
+19	  merge back.	NULL
+3	 She's too busy to push the button to answer the phone. Patrick had to do it. He was closest to the phone.	NULL
+1168	 So, what they do today, the reason they want this, is they go in and they select plugs and hardwire combined, and they retire them. When they retire them, they go over to  , and when they go to  , they have to have an estimate on them.	A
+2	 I'm here. I am desperately trying to get the board to show up.	NULL
+4776	 They want to take the location code and...	F
+44	 We're going to be building 1.1 next week because we're going to have to because it has to be done next week so some of this stuff has to be being tested. If he can get this finished today and you all get everything merged back then you can make the build today but I would say let's wait on this because otherwise, the only thing we have is that report to test.	NULL
+17	 Nothing from me.	NULL
+165	 Like  , I don't have email in front of me, but basically you've got a high level...Susan's team, I guess when they go in there to do the approval. Pretty much the status is already set, so they're restricted, and can't redo something.	A
+4832	 The other thing that I had on my list was the CTDI interface and the ship to email that came out this morning. I don't know what our options are at this point and we don't have time to make code changes, so I don't think putting the ship to codes in as CLLIs is a viable solution.	F
+21	 So you don't have any updates on these because you spent the whole day doing other practice for the area. Are going to get finished before next Friday?	NULL
+711	 Just as long as there's  have to see  , we can give them an update on that this morning. They need to look at those 60 that are left, because they can't  FTR serial numbers.  .	F
+30	 Yeah, that'll knock some time off. Not having to update the tester.	NULL
+4776	 They want to take the location code and...	F
+810	 We're working,  to see what would be a report that would be good for us to go through. We'll get that figured. Kim wanted to talk about those fallouts, try to do it as a group, so we're not having any conflicts. We can work definitely on that. I don't have anything else.	A
+26	 Yeah.	NULL
+30	 Yeah, that'll knock some time off. Not having to update the tester.	NULL
+741	 That's a problem, because they're editing it, and they're changing values, and then we're going, "Nope!" And putting them right back.	F
+14	 Yeah but this is not that 1.1. I'll do 1.1 in a bit. A 1.1 build later today. I'll deploy it for you.	NULL
+2499	 OK, he's on a CTDI call which...Apparently, he wanted me to talk to you guys about...it may be a table field model, and then its DISTOCD, it's in regard to warehousing  warehouses. Brian, he's saying that we either need a copy of that data or if there's a place in LCAM to store it. I'll send that to you via email, but apparently, he just wanted me to bring that up.	A
+33	 As long as your stuff is done and it's right.	NULL
+241	 Yeah. As long as it's a valid substitute, you should be able to edit that line item and change the SE, or you can split it, put in a substitute for that particular asset. It has to be in our table for substitutes.	A
+42	 build until next week.	NULL
+165	 Like  , I don't have email in front of me, but basically you've got a high level...Susan's team, I guess when they go in there to do the approval. Pretty much the status is already set, so they're restricted, and can't redo something.	F
+43	 I'm just kidding. It's OK.	NULL
+4	 I'm sorry. Deal with it. I haven't even written down what day of the week it is yet.	NULL
+4719	 Yeah. I know for sure they're going to come back. There's stuff on the assets screen that they're able to edit but they can't edit on here right now. I know they're going to  .	F
+12	 OK, well I haven't deployed 1.1 yet.	NULL
+1	 Where's Susan?	NULL
+29	 I mean, I would rather it be in 1.1 just so we'll be done done with everything related to that interface and not have it hanging over us.	NULL
+25	 It'll compile well. That's really all we need. It compiles. Adam. So you know how this one's...So you need to...	NULL
+482	 So, Jim, the last email that Brian sent in regards to those CLLIs that we can't match as an exchange? I know we're getting down to the wire. I don't think that Ken and I can weigh in on that, as to what he wants to do.	A
+810	 We're working,  to see what would be a report that would be good for us to go through. We'll get that figured. Kim wanted to talk about those fallouts, try to do it as a group, so we're not having any conflicts. We can work definitely on that. I don't have anything else.	A
+843	 Their proposal was to send it out as one part number and then we would send another message, have it coming back in as a different part number. Still, the code doesn't change the part number when it comes in, it  that VIN and moves that VIN where it needs to be. It doesn't change the base equipment on that, that VIN.	F
+31	 Yeah, as long as the tester gets updated like the week after or two weeks after so that it's available for when we need to do tests on the interface, because he's also off that week that you're off. That's why I'm like, stuff's got to be done. It's got to be right because you all are off, which is allowed. Just got to be done.	NULL
+482	 So, Jim, the last email that Brian sent in regards to those CLLIs that we can't match as an exchange? I know we're getting down to the wire. I don't think that Ken and I can weigh in on that, as to what he wants to do.	A
+44	 We're going to be building 1.1 next week because we're going to have to because it has to be done next week so some of this stuff has to be being tested. If he can get this finished today and you all get everything merged back then you can make the build today but I would say let's wait on this because otherwise, the only thing we have is that report to test.	NULL
+1	 Where's Susan?	NULL
+4697	 The drop-downs don't have drop-downs in them, so you can't filter by the drop-downs on the grid.	A
+42	 build until next week.	NULL
+32	 With your permission, right?	NULL
+4776	 They want to take the location code and...	F
+741	 That's a problem, because they're editing it, and they're changing values, and then we're going, "Nope!" And putting them right back.	A
+37	 I could finish that story up if I could just...	NULL
+12	 OK, well I haven't deployed 1.1 yet.	NULL
+6	 It's Friday.	NULL
+711	 Just as long as there's  have to see  , we can give them an update on that this morning. They need to look at those 60 that are left, because they can't  FTR serial numbers.  .	F
+483	 I've got it open, here. That was one of my two things, so I'll jump to that one. Yeah, Brian...Let's see, where are we? The company plant couldn't find a CLLI code.	F
+4	 I'm sorry. Deal with it. I haven't even written down what day of the week it is yet.	NULL
+5	 It's Friday.	NULL
+15	 What else will we  ?	NULL
+1136	 So right now, see  group is not on here, so that's what you're doing. You're adding  group, and it'll still have all the same information. It'll still have each of the  listed out under it.	F
+726	 Yeah, those are all bay audit screen updates. I'm shoveling through them at the moment.	A
+231	 I didn't get to read anything, but that would be one of the few reasons.	A
+23	  Is it going to be right?	NULL
+4697	 The drop-downs don't have drop-downs in them, so you can't filter by the drop-downs on the grid.	F
+14	 Yeah but this is not that 1.1. I'll do 1.1 in a bit. A 1.1 build later today. I'll deploy it for you.	NULL
+538	 If they're not, I need to strip those out, but we'd also need to know whether we can or can't ship a plug to one of those particular locations, and if something needs to go there, where it needs to be shipped to, via, to get there.	A
+1041	 Oh, there's the mouse cursor.  the mouse cursor. I think I'm close to getting it fixed. I should finish it today. Null and blank  have been my enemy.	F
+231	 I didn't get to read anything, but that would be one of the few reasons.	A
+4719	 Yeah. I know for sure they're going to come back. There's stuff on the assets screen that they're able to edit but they can't edit on here right now. I know they're going to  .	F
+241	 Yeah. As long as it's a valid substitute, you should be able to edit that line item and change the SE, or you can split it, put in a substitute for that particular asset. It has to be in our table for substitutes.	A
+4720	 We did have that story in the backlog about adding the ability to mass update, as a whole story. We had that one in the backlog, because Adam had not ever added the...It's like a whole separate story, so we can put this task under that. It's basically the same thing, right?	F
+44	 We're going to be building 1.1 next week because we're going to have to because it has to be done next week so some of this stuff has to be being tested. If he can get this finished today and you all get everything merged back then you can make the build today but I would say let's wait on this because otherwise, the only thing we have is that report to test.	NULL
+25	 It'll compile well. That's really all we need. It compiles. Adam. So you know how this one's...So you need to...	NULL
+1101	 Allowing them to search by receive dates. I think receive date is already displaying on the screen. We just don't allow them to search by it. I'm not sure if you need to bring it up. Because I don't know if anybody  or not.	F
+6	 It's Friday.	NULL
+27	 You'll add a task on that one. Who thinks he can get this done? For one thing, because, like I told him, I don't care if the tester gets updated because it needs to be tested with CTDI next week anyway.	NULL
+1168	 So, what they do today, the reason they want this, is they go in and they select plugs and hardwire combined, and they retire them. When they retire them, they go over to  , and when they go to  , they have to have an estimate on them.	A
+711	 Just as long as there's  have to see  , we can give them an update on that this morning. They need to look at those 60 that are left, because they can't  FTR serial numbers.  .	F
+181	 Normally, what we've done in the past is, we would be able to split that order so you would be able to push through and process  available. Create  a different order for the one that was not in stock. You would put in for that order's status.	F
+43	 I'm just kidding. It's OK.	NULL
+3	 She's too busy to push the button to answer the phone. Patrick had to do it. He was closest to the phone.	NULL
+843	 Their proposal was to send it out as one part number and then we would send another message, have it coming back in as a different part number. Still, the code doesn't change the part number when it comes in, it  that VIN and moves that VIN where it needs to be. It doesn't change the base equipment on that, that VIN.	F
+39	 If I could get an hour and a half, two hours together. I could finish that one. I'll finish today.	NULL
+1138	 Well, it's however you want to do it. They would like it with  order, so yeah, you can do it as just another column on the report, as long as  would be duplicated. And that's kind of how it sounds like they want it, as opposed to having it as a header child grid, because then they can look at everything.	F
+40	 OK. That'll be good. If he's going to finish this one today, it would actually be good to wait until Monday to get our next release because then we'll have the reports that we can test and this serialized change on the UI.	NULL
+1101	 Allowing them to search by receive dates. I think receive date is already displaying on the screen. We just don't allow them to search by it. I'm not sure if you need to bring it up. Because I don't know if anybody  or not.	A
+726	 Yeah, those are all bay audit screen updates. I'm shoveling through them at the moment.	A
+41	 Now you've put the pressure on me. Now I can't do it.	NULL
+538	 If they're not, I need to strip those out, but we'd also need to know whether we can or can't ship a plug to one of those particular locations, and if something needs to go there, where it needs to be shipped to, via, to get there.	A
+725	 And add duplicate H  description for older, unprocessed  .	F
+20	 Should already be indexed. I'll build that from  second merge is done.	NULL
+1161	 The other change is to allow them to make, let me see, what does it say? On here, they search for assets, and then they're going to change a whole group of hardwire and plugin records at the same time. Right now they can't do that, so that's the first change you're making. That's the story.	F
+741	 That's a problem, because they're editing it, and they're changing values, and then we're going, "Nope!" And putting them right back.	A
+710	 That's good. You got rid of the stuff that they need to be concerned about.	F
+29	 I mean, I would rather it be in 1.1 just so we'll be done done with everything related to that interface and not have it hanging over us.	NULL
+35	 Mamma has spoken.	NULL
+1	 Where's Susan?	NULL
+1101	 Allowing them to search by receive dates. I think receive date is already displaying on the screen. We just don't allow them to search by it. I'm not sure if you need to bring it up. Because I don't know if anybody  or not.	F
+7	 I have to write this crap down because I have to have all my notes. Grady is done with all of his stuff.	NULL
+2444	 Just basically getting it towards ready to go in the user's tail log. I've got to delete one user from the script though, because he's already in the user's table. Ken Howard, he was already in the user table, but he's also in this spreadsheet.	F
+1138	 Well, it's however you want to do it. They would like it with  order, so yeah, you can do it as just another column on the report, as long as  would be duplicated. And that's kind of how it sounds like they want it, as opposed to having it as a header child grid, because then they can look at everything.	A
+15	 What else will we  ?	NULL
+20	 Should already be indexed. I'll build that from  second merge is done.	NULL
+726	 Yeah, those are all bay audit screen updates. I'm shoveling through them at the moment.	A
+33	 As long as your stuff is done and it's right.	NULL
+28	 So if you can just get it done and then test with them and fix anything, then update the tester after the fact so that somebody can actually test against it, we could get away with that this time if we can get it in.	NULL
+26	 Yeah.	NULL
+1041	 Oh, there's the mouse cursor.  the mouse cursor. I think I'm close to getting it fixed. I should finish it today. Null and blank  have been my enemy.	A
+741	 That's a problem, because they're editing it, and they're changing values, and then we're going, "Nope!" And putting them right back.	F
+709	 Other things, and including the remote. I had received messages are now coming in from  ...So, I had a bunch of those. This is  screen. I got it down, from 203, I got it down to 60, that they're going to have to look at.	F
+482	 So, Jim, the last email that Brian sent in regards to those CLLIs that we can't match as an exchange? I know we're getting down to the wire. I don't think that Ken and I can weigh in on that, as to what he wants to do.	A
+36	 Yeah. Well, that's life.	NULL
+13	 You did. Last week. We tested some of it.	NULL
+165	 Like  , I don't have email in front of me, but basically you've got a high level...Susan's team, I guess when they go in there to do the approval. Pretty much the status is already set, so they're restricted, and can't redo something.	A
+41	 Now you've put the pressure on me. Now I can't do it.	NULL
+725	 And add duplicate H  description for older, unprocessed  .	F
+2	 I'm here. I am desperately trying to get the board to show up.	NULL
+9	 Have you deployed it?	NULL
+2444	 Just basically getting it towards ready to go in the user's tail log. I've got to delete one user from the script though, because he's already in the user's table. Ken Howard, he was already in the user table, but he's also in this spreadsheet.	F
+22	 Dang right I will.	NULL
+9	 Have you deployed it?	NULL
+4719	 Yeah. I know for sure they're going to come back. There's stuff on the assets screen that they're able to edit but they can't edit on here right now. I know they're going to  .	F
+810	 We're working,  to see what would be a report that would be good for us to go through. We'll get that figured. Kim wanted to talk about those fallouts, try to do it as a group, so we're not having any conflicts. We can work definitely on that. I don't have anything else.	A
+241	 Yeah. As long as it's a valid substitute, you should be able to edit that line item and change the SE, or you can split it, put in a substitute for that particular asset. It has to be in our table for substitutes.	A
+166	 An example would be of, it's like a forward stocking, LCAM says it's out there, but then when we talk tech with  , the packet is not there, or some some situation that can't use that. They can't go back and change it to pick it up in stock.	A
+2499	 OK, he's on a CTDI call which...Apparently, he wanted me to talk to you guys about...it may be a table field model, and then its DISTOCD, it's in regard to warehousing  warehouses. Brian, he's saying that we either need a copy of that data or if there's a place in LCAM to store it. I'll send that to you via email, but apparently, he just wanted me to bring that up.	A
+165	 Like  , I don't have email in front of me, but basically you've got a high level...Susan's team, I guess when they go in there to do the approval. Pretty much the status is already set, so they're restricted, and can't redo something.	F
+7	 I have to write this crap down because I have to have all my notes. Grady is done with all of his stuff.	NULL
+28	 So if you can just get it done and then test with them and fix anything, then update the tester after the fact so that somebody can actually test against it, we could get away with that this time if we can get it in.	NULL
+47	 That's all you've got. Yeah. Grady and Drake and Patrick.	NULL
+12	 OK, well I haven't deployed 1.1 yet.	NULL
+10	 No, that's what 1.1 is doing.	NULL
+3	 She's too busy to push the button to answer the phone. Patrick had to do it. He was closest to the phone.	NULL
+3	 She's too busy to push the button to answer the phone. Patrick had to do it. He was closest to the phone.	NULL
+37	 I could finish that story up if I could just...	NULL
+231	 I didn't get to read anything, but that would be one of the few reasons.	A
+45	 The other report was available the last time you built for me. I just haven't tested it yet.	NULL
+4717	 I have some counts on the headers I'd like to change a little bit, make a little bit more sense about what's in the details and test the duplicate  thing a little more thoroughly just to make sure it's going to reach across different groupings and  . The only thing I haven't started on yet is the multi-row payroll editing.	F
+1101	 Allowing them to search by receive dates. I think receive date is already displaying on the screen. We just don't allow them to search by it. I'm not sure if you need to bring it up. Because I don't know if anybody  or not.	F
+35	 Mamma has spoken.	NULL
+990	 So you're saying that you've received new equipment  by looking at the wires? By wired information? But you haven't seen any of that evidence in LCAM, is that right?	F
+1041	 Oh, there's the mouse cursor.  the mouse cursor. I think I'm close to getting it fixed. I should finish it today. Null and blank  have been my enemy.	F
+166	 An example would be of, it's like a forward stocking, LCAM says it's out there, but then when we talk tech with  , the packet is not there, or some some situation that can't use that. They can't go back and change it to pick it up in stock.	A
+245	 Whenever they can't put that in, they need to let me know what it is, and we can check the sub table to see what's wrong. If it's valid we can update the sub table.	F
+1138	 Well, it's however you want to do it. They would like it with  order, so yeah, you can do it as just another column on the report, as long as  would be duplicated. And that's kind of how it sounds like they want it, as opposed to having it as a header child grid, because then they can look at everything.	F
+165	 Like  , I don't have email in front of me, but basically you've got a high level...Susan's team, I guess when they go in there to do the approval. Pretty much the status is already set, so they're restricted, and can't redo something.	A
+2499	 OK, he's on a CTDI call which...Apparently, he wanted me to talk to you guys about...it may be a table field model, and then its DISTOCD, it's in regard to warehousing  warehouses. Brian, he's saying that we either need a copy of that data or if there's a place in LCAM to store it. I'll send that to you via email, but apparently, he just wanted me to bring that up.	A
+8	 I've got a first  . Tested it the best I can.	NULL
+1136	 So right now, see  group is not on here, so that's what you're doing. You're adding  group, and it'll still have all the same information. It'll still have each of the  listed out under it.	F
+1138	 Well, it's however you want to do it. They would like it with  order, so yeah, you can do it as just another column on the report, as long as  would be duplicated. And that's kind of how it sounds like they want it, as opposed to having it as a header child grid, because then they can look at everything.	A
+16	 Do we need to...?	NULL
+710	 That's good. You got rid of the stuff that they need to be concerned about.	F
+538	 If they're not, I need to strip those out, but we'd also need to know whether we can or can't ship a plug to one of those particular locations, and if something needs to go there, where it needs to be shipped to, via, to get there.	A
+5	 It's Friday.	NULL
+1041	 Oh, there's the mouse cursor.  the mouse cursor. I think I'm close to getting it fixed. I should finish it today. Null and blank  have been my enemy.	A
+45	 The other report was available the last time you built for me. I just haven't tested it yet.	NULL
+537	 It was quite a while ago, and to be honest, it could have been you that said it or somebody else. Neither here nor there. That's the next barrier I'm coming across, is I need to know whether or not the G team's ship-to code is indeed a valid ship-to code for those locations that are in the extract. If they are, I'll need those addresses. I really just don't know where to find them, if they are in the extract or not.	F
+11	 He's got to test it!	NULL
+40	 OK. That'll be good. If he's going to finish this one today, it would actually be good to wait until Monday to get our next release because then we'll have the reports that we can test and this serialized change on the UI.	NULL
+19	  merge back.	NULL
+46	  .	NULL
+7	 I have to write this crap down because I have to have all my notes. Grady is done with all of his stuff.	NULL
+181	 Normally, what we've done in the past is, we would be able to split that order so you would be able to push through and process  available. Create  a different order for the one that was not in stock. You would put in for that order's status.	F
+4832	 The other thing that I had on my list was the CTDI interface and the ship to email that came out this morning. I don't know what our options are at this point and we don't have time to make code changes, so I don't think putting the ship to codes in as CLLIs is a viable solution.	F
+19	  merge back.	NULL
+1161	 The other change is to allow them to make, let me see, what does it say? On here, they search for assets, and then they're going to change a whole group of hardwire and plugin records at the same time. Right now they can't do that, so that's the first change you're making. That's the story.	F
+4697	 The drop-downs don't have drop-downs in them, so you can't filter by the drop-downs on the grid.	F
+40	 OK. That'll be good. If he's going to finish this one today, it would actually be good to wait until Monday to get our next release because then we'll have the reports that we can test and this serialized change on the UI.	NULL
+18	 Nothing from me. 	NULL
+2499	 OK, he's on a CTDI call which...Apparently, he wanted me to talk to you guys about...it may be a table field model, and then its DISTOCD, it's in regard to warehousing  warehouses. Brian, he's saying that we either need a copy of that data or if there's a place in LCAM to store it. I'll send that to you via email, but apparently, he just wanted me to bring that up.	F
+14	 Yeah but this is not that 1.1. I'll do 1.1 in a bit. A 1.1 build later today. I'll deploy it for you.	NULL
+726	 Yeah, those are all bay audit screen updates. I'm shoveling through them at the moment.	A
+1163	 The other thing that they're doing is change multiple frame ID's and put a  in them, so this is the one...Search assets and then just pick a frame...	F
+1163	 The other thing that they're doing is change multiple frame ID's and put a  in them, so this is the one...Search assets and then just pick a frame...	F
+23	  Is it going to be right?	NULL
+10	 No, that's what 1.1 is doing.	NULL
+47	 That's all you've got. Yeah. Grady and Drake and Patrick.	NULL
+2438	 We need to give them the schema to ETR catalog extension after there's commitment, and so they take...you give us your data and you put in this format and then roll.	F
+718	 Kevin and Drake's got modify the retail notifications that handle non-sterilized equipment, and to modify received equipment that handle non-sterilized equipment.	F
+4720	 We did have that story in the backlog about adding the ability to mass update, as a whole story. We had that one in the backlog, because Adam had not ever added the...It's like a whole separate story, so we can put this task under that. It's basically the same thing, right?	F
+18	 Nothing from me. 	NULL
+17	 Nothing from me.	NULL
+1	 Where's Susan?	NULL
+38	 If you could ever get two hours.	NULL
+5	 It's Friday.	NULL
+483	 I've got it open, here. That was one of my two things, so I'll jump to that one. Yeah, Brian...Let's see, where are we? The company plant couldn't find a CLLI code.	F
+843	 Their proposal was to send it out as one part number and then we would send another message, have it coming back in as a different part number. Still, the code doesn't change the part number when it comes in, it  that VIN and moves that VIN where it needs to be. It doesn't change the base equipment on that, that VIN.	F
+21	 So you don't have any updates on these because you spent the whole day doing other practice for the area. Are going to get finished before next Friday?	NULL
+4	 I'm sorry. Deal with it. I haven't even written down what day of the week it is yet.	NULL
+21	 So you don't have any updates on these because you spent the whole day doing other practice for the area. Are going to get finished before next Friday?	NULL
+1041	 Oh, there's the mouse cursor.  the mouse cursor. I think I'm close to getting it fixed. I should finish it today. Null and blank  have been my enemy.	A
+5	 It's Friday.	NULL
+4832	 The other thing that I had on my list was the CTDI interface and the ship to email that came out this morning. I don't know what our options are at this point and we don't have time to make code changes, so I don't think putting the ship to codes in as CLLIs is a viable solution.	A
+983	 I owe you guys an email explaining that, so I'll send that to you, and you can  to whoever you need to. I'll explain the pseudo exchange  to  . OK? .	F
+223	 Yeah, I've done that. We're working on where that might be confusing. And the other item, I don't know if we've had it out there before, but the  group, and, well, both groups, I don't know if it's on anything, but CLLI code with the wild card...That's a big request.	F
+483	 I've got it open, here. That was one of my two things, so I'll jump to that one. Yeah, Brian...Let's see, where are we? The company plant couldn't find a CLLI code.	F
+46	  .	NULL
+483	 I've got it open, here. That was one of my two things, so I'll jump to that one. Yeah, Brian...Let's see, where are we? The company plant couldn't find a CLLI code.	F
+1164	 So, it's different CLLIs. So, if I say I want to do these different CLLIs and I want to update the frame, because you can't. So, this story is to not throw that error message, so that they can update frames across CLLIs.	F
+810	 We're working,  to see what would be a report that would be good for us to go through. We'll get that figured. Kim wanted to talk about those fallouts, try to do it as a group, so we're not having any conflicts. We can work definitely on that. I don't have anything else.	F
+42	 build until next week.	NULL
+1138	 Well, it's however you want to do it. They would like it with  order, so yeah, you can do it as just another column on the report, as long as  would be duplicated. And that's kind of how it sounds like they want it, as opposed to having it as a header child grid, because then they can look at everything.	A
+32	 With your permission, right?	NULL
+4720	 We did have that story in the backlog about adding the ability to mass update, as a whole story. We had that one in the backlog, because Adam had not ever added the...It's like a whole separate story, so we can put this task under that. It's basically the same thing, right?	F
+34	 Of course.	NULL
+43	 I'm just kidding. It's OK.	NULL
+29	 I mean, I would rather it be in 1.1 just so we'll be done done with everything related to that interface and not have it hanging over us.	NULL
+2438	 We need to give them the schema to ETR catalog extension after there's commitment, and so they take...you give us your data and you put in this format and then roll.	F
+2499	 OK, he's on a CTDI call which...Apparently, he wanted me to talk to you guys about...it may be a table field model, and then its DISTOCD, it's in regard to warehousing  warehouses. Brian, he's saying that we either need a copy of that data or if there's a place in LCAM to store it. I'll send that to you via email, but apparently, he just wanted me to bring that up.	F
+990	 So you're saying that you've received new equipment  by looking at the wires? By wired information? But you haven't seen any of that evidence in LCAM, is that right?	F
+2499	 OK, he's on a CTDI call which...Apparently, he wanted me to talk to you guys about...it may be a table field model, and then its DISTOCD, it's in regard to warehousing  warehouses. Brian, he's saying that we either need a copy of that data or if there's a place in LCAM to store it. I'll send that to you via email, but apparently, he just wanted me to bring that up.	F
+1136	 So right now, see  group is not on here, so that's what you're doing. You're adding  group, and it'll still have all the same information. It'll still have each of the  listed out under it.	F
+24	 Of course.	NULL
+45	 The other report was available the last time you built for me. I just haven't tested it yet.	NULL
+9	 Have you deployed it?	NULL
+39	 If I could get an hour and a half, two hours together. I could finish that one. I'll finish today.	NULL
+30	 Yeah, that'll knock some time off. Not having to update the tester.	NULL
+2438	 We need to give them the schema to ETR catalog extension after there's commitment, and so they take...you give us your data and you put in this format and then roll.	F
+31	 Yeah, as long as the tester gets updated like the week after or two weeks after so that it's available for when we need to do tests on the interface, because he's also off that week that you're off. That's why I'm like, stuff's got to be done. It's got to be right because you all are off, which is allowed. Just got to be done.	NULL
+742	 That, to me, is a show-stopper type of an issue, even though the value is not horribly, horribly important. It's like parent amount position and parent  . Is this reverting back to amount position in a  in another location? And there was something else.	F
+725	 And add duplicate H  description for older, unprocessed  .	F
+4	 I'm sorry. Deal with it. I haven't even written down what day of the week it is yet.	NULL
+1138	 Well, it's however you want to do it. They would like it with  order, so yeah, you can do it as just another column on the report, as long as  would be duplicated. And that's kind of how it sounds like they want it, as opposed to having it as a header child grid, because then they can look at everything.	A
+25	 It'll compile well. That's really all we need. It compiles. Adam. So you know how this one's...So you need to...	NULL
+47	 That's all you've got. Yeah. Grady and Drake and Patrick.	NULL
+983	 I owe you guys an email explaining that, so I'll send that to you, and you can  to whoever you need to. I'll explain the pseudo exchange  to  . OK? .	F
+742	 That, to me, is a show-stopper type of an issue, even though the value is not horribly, horribly important. It's like parent amount position and parent  . Is this reverting back to amount position in a  in another location? And there was something else.	F
+24	 Of course.	NULL
+31	 Yeah, as long as the tester gets updated like the week after or two weeks after so that it's available for when we need to do tests on the interface, because he's also off that week that you're off. That's why I'm like, stuff's got to be done. It's got to be right because you all are off, which is allowed. Just got to be done.	NULL
+45	 The other report was available the last time you built for me. I just haven't tested it yet.	NULL
+4697	 The drop-downs don't have drop-downs in them, so you can't filter by the drop-downs on the grid.	F
+18	 Nothing from me. 	NULL
+1138	 Well, it's however you want to do it. They would like it with  order, so yeah, you can do it as just another column on the report, as long as  would be duplicated. And that's kind of how it sounds like they want it, as opposed to having it as a header child grid, because then they can look at everything.	F
+709	 Other things, and including the remote. I had received messages are now coming in from  ...So, I had a bunch of those. This is  screen. I got it down, from 203, I got it down to 60, that they're going to have to look at.	F
+231	 I didn't get to read anything, but that would be one of the few reasons.	A
+165	 Like  , I don't have email in front of me, but basically you've got a high level...Susan's team, I guess when they go in there to do the approval. Pretty much the status is already set, so they're restricted, and can't redo something.	F
+17	 Nothing from me.	NULL
+741	 That's a problem, because they're editing it, and they're changing values, and then we're going, "Nope!" And putting them right back.	F
+990	 So you're saying that you've received new equipment  by looking at the wires? By wired information? But you haven't seen any of that evidence in LCAM, is that right?	F
+983	 I owe you guys an email explaining that, so I'll send that to you, and you can  to whoever you need to. I'll explain the pseudo exchange  to  . OK? .	F
+2444	 Just basically getting it towards ready to go in the user's tail log. I've got to delete one user from the script though, because he's already in the user's table. Ken Howard, he was already in the user table, but he's also in this spreadsheet.	F
+33	 As long as your stuff is done and it's right.	NULL
+9	 Have you deployed it?	NULL
+24	 Of course.	NULL
+4832	 The other thing that I had on my list was the CTDI interface and the ship to email that came out this morning. I don't know what our options are at this point and we don't have time to make code changes, so I don't think putting the ship to codes in as CLLIs is a viable solution.	A
+11	 He's got to test it!	NULL
+537	 It was quite a while ago, and to be honest, it could have been you that said it or somebody else. Neither here nor there. That's the next barrier I'm coming across, is I need to know whether or not the G team's ship-to code is indeed a valid ship-to code for those locations that are in the extract. If they are, I'll need those addresses. I really just don't know where to find them, if they are in the extract or not.	F
+1101	 Allowing them to search by receive dates. I think receive date is already displaying on the screen. We just don't allow them to search by it. I'm not sure if you need to bring it up. Because I don't know if anybody  or not.	A
+245	 Whenever they can't put that in, they need to let me know what it is, and we can check the sub table to see what's wrong. If it's valid we can update the sub table.	F
+725	 And add duplicate H  description for older, unprocessed  .	F
+47	 That's all you've got. Yeah. Grady and Drake and Patrick.	NULL
+4717	 I have some counts on the headers I'd like to change a little bit, make a little bit more sense about what's in the details and test the duplicate  thing a little more thoroughly just to make sure it's going to reach across different groupings and  . The only thing I haven't started on yet is the multi-row payroll editing.	F
+25	 It'll compile well. That's really all we need. It compiles. Adam. So you know how this one's...So you need to...	NULL
+742	 That, to me, is a show-stopper type of an issue, even though the value is not horribly, horribly important. It's like parent amount position and parent  . Is this reverting back to amount position in a  in another location? And there was something else.	F
+1168	 So, what they do today, the reason they want this, is they go in and they select plugs and hardwire combined, and they retire them. When they retire them, they go over to  , and when they go to  , they have to have an estimate on them.	A
+15	 What else will we  ?	NULL
+245	 Whenever they can't put that in, they need to let me know what it is, and we can check the sub table to see what's wrong. If it's valid we can update the sub table.	F
+4717	 I have some counts on the headers I'd like to change a little bit, make a little bit more sense about what's in the details and test the duplicate  thing a little more thoroughly just to make sure it's going to reach across different groupings and  . The only thing I haven't started on yet is the multi-row payroll editing.	F
+4697	 The drop-downs don't have drop-downs in them, so you can't filter by the drop-downs on the grid.	F
+7	 I have to write this crap down because I have to have all my notes. Grady is done with all of his stuff.	NULL
+34	 Of course.	NULL
+1164	 So, it's different CLLIs. So, if I say I want to do these different CLLIs and I want to update the frame, because you can't. So, this story is to not throw that error message, so that they can update frames across CLLIs.	F
+36	 Yeah. Well, that's life.	NULL
+38	 If you could ever get two hours.	NULL
+1101	 Allowing them to search by receive dates. I think receive date is already displaying on the screen. We just don't allow them to search by it. I'm not sure if you need to bring it up. Because I don't know if anybody  or not.	A
+990	 So you're saying that you've received new equipment  by looking at the wires? By wired information? But you haven't seen any of that evidence in LCAM, is that right?	A
+33	 As long as your stuff is done and it's right.	NULL
+165	 Like  , I don't have email in front of me, but basically you've got a high level...Susan's team, I guess when they go in there to do the approval. Pretty much the status is already set, so they're restricted, and can't redo something.	F
+710	 That's good. You got rid of the stuff that they need to be concerned about.	F
+4719	 Yeah. I know for sure they're going to come back. There's stuff on the assets screen that they're able to edit but they can't edit on here right now. I know they're going to  .	F
+6	 It's Friday.	NULL
+4697	 The drop-downs don't have drop-downs in them, so you can't filter by the drop-downs on the grid.	A
+6	 It's Friday.	NULL
+44	 We're going to be building 1.1 next week because we're going to have to because it has to be done next week so some of this stuff has to be being tested. If he can get this finished today and you all get everything merged back then you can make the build today but I would say let's wait on this because otherwise, the only thing we have is that report to test.	NULL
+810	 We're working,  to see what would be a report that would be good for us to go through. We'll get that figured. Kim wanted to talk about those fallouts, try to do it as a group, so we're not having any conflicts. We can work definitely on that. I don't have anything else.	A
+38	 If you could ever get two hours.	NULL
+12	 OK, well I haven't deployed 1.1 yet.	NULL
+13	 You did. Last week. We tested some of it.	NULL
+4717	 I have some counts on the headers I'd like to change a little bit, make a little bit more sense about what's in the details and test the duplicate  thing a little more thoroughly just to make sure it's going to reach across different groupings and  . The only thing I haven't started on yet is the multi-row payroll editing.	F
+241	 Yeah. As long as it's a valid substitute, you should be able to edit that line item and change the SE, or you can split it, put in a substitute for that particular asset. It has to be in our table for substitutes.	A
+18	 Nothing from me. 	NULL
+4832	 The other thing that I had on my list was the CTDI interface and the ship to email that came out this morning. I don't know what our options are at this point and we don't have time to make code changes, so I don't think putting the ship to codes in as CLLIs is a viable solution.	F
+4832	 The other thing that I had on my list was the CTDI interface and the ship to email that came out this morning. I don't know what our options are at this point and we don't have time to make code changes, so I don't think putting the ship to codes in as CLLIs is a viable solution.	F
+741	 That's a problem, because they're editing it, and they're changing values, and then we're going, "Nope!" And putting them right back.	F
+990	 So you're saying that you've received new equipment  by looking at the wires? By wired information? But you haven't seen any of that evidence in LCAM, is that right?	A
+2444	 Just basically getting it towards ready to go in the user's tail log. I've got to delete one user from the script though, because he's already in the user's table. Ken Howard, he was already in the user table, but he's also in this spreadsheet.	F
+709	 Other things, and including the remote. I had received messages are now coming in from  ...So, I had a bunch of those. This is  screen. I got it down, from 203, I got it down to 60, that they're going to have to look at.	F
+1161	 The other change is to allow them to make, let me see, what does it say? On here, they search for assets, and then they're going to change a whole group of hardwire and plugin records at the same time. Right now they can't do that, so that's the first change you're making. That's the story.	F
+810	 We're working,  to see what would be a report that would be good for us to go through. We'll get that figured. Kim wanted to talk about those fallouts, try to do it as a group, so we're not having any conflicts. We can work definitely on that. I don't have anything else.	F
+46	  .	NULL
+28	 So if you can just get it done and then test with them and fix anything, then update the tester after the fact so that somebody can actually test against it, we could get away with that this time if we can get it in.	NULL
+1041	 Oh, there's the mouse cursor.  the mouse cursor. I think I'm close to getting it fixed. I should finish it today. Null and blank  have been my enemy.	F
+11	 He's got to test it!	NULL
+34	 Of course.	NULL
+4776	 They want to take the location code and...	F
+10	 No, that's what 1.1 is doing.	NULL
+29	 I mean, I would rather it be in 1.1 just so we'll be done done with everything related to that interface and not have it hanging over us.	NULL
+1161	 The other change is to allow them to make, let me see, what does it say? On here, they search for assets, and then they're going to change a whole group of hardwire and plugin records at the same time. Right now they can't do that, so that's the first change you're making. That's the story.	F
+22	 Dang right I will.	NULL
+8	 I've got a first  . Tested it the best I can.	NULL
+22	 Dang right I will.	NULL
+710	 That's good. You got rid of the stuff that they need to be concerned about.	F
+20	 Should already be indexed. I'll build that from  second merge is done.	NULL
+8	 I've got a first  . Tested it the best I can.	NULL
+35	 Mamma has spoken.	NULL
+32	 With your permission, right?	NULL
+1041	 Oh, there's the mouse cursor.  the mouse cursor. I think I'm close to getting it fixed. I should finish it today. Null and blank  have been my enemy.	F
+1163	 The other thing that they're doing is change multiple frame ID's and put a  in them, so this is the one...Search assets and then just pick a frame...	F
+26	 Yeah.	NULL
+482	 So, Jim, the last email that Brian sent in regards to those CLLIs that we can't match as an exchange? I know we're getting down to the wire. I don't think that Ken and I can weigh in on that, as to what he wants to do.	A
+718	 Kevin and Drake's got modify the retail notifications that handle non-sterilized equipment, and to modify received equipment that handle non-sterilized equipment.	F
+2438	 We need to give them the schema to ETR catalog extension after there's commitment, and so they take...you give us your data and you put in this format and then roll.	F
+843	 Their proposal was to send it out as one part number and then we would send another message, have it coming back in as a different part number. Still, the code doesn't change the part number when it comes in, it  that VIN and moves that VIN where it needs to be. It doesn't change the base equipment on that, that VIN.	F
+718	 Kevin and Drake's got modify the retail notifications that handle non-sterilized equipment, and to modify received equipment that handle non-sterilized equipment.	F
+19	  merge back.	NULL
+1164	 So, it's different CLLIs. So, if I say I want to do these different CLLIs and I want to update the frame, because you can't. So, this story is to not throw that error message, so that they can update frames across CLLIs.	F
+983	 I owe you guys an email explaining that, so I'll send that to you, and you can  to whoever you need to. I'll explain the pseudo exchange  to  . OK? .	F
+8	 I've got a first  . Tested it the best I can.	NULL
+23	  Is it going to be right?	NULL
+27	 You'll add a task on that one. Who thinks he can get this done? For one thing, because, like I told him, I don't care if the tester gets updated because it needs to be tested with CTDI next week anyway.	NULL
+16	 Do we need to...?	NULL
+2	 I'm here. I am desperately trying to get the board to show up.	NULL
+1136	 So right now, see  group is not on here, so that's what you're doing. You're adding  group, and it'll still have all the same information. It'll still have each of the  listed out under it.	F
+11	 He's got to test it!	NULL
+1138	 Well, it's however you want to do it. They would like it with  order, so yeah, you can do it as just another column on the report, as long as  would be duplicated. And that's kind of how it sounds like they want it, as opposed to having it as a header child grid, because then they can look at everything.	F
+245	 Whenever they can't put that in, they need to let me know what it is, and we can check the sub table to see what's wrong. If it's valid we can update the sub table.	F
+31	 Yeah, as long as the tester gets updated like the week after or two weeks after so that it's available for when we need to do tests on the interface, because he's also off that week that you're off. That's why I'm like, stuff's got to be done. It's got to be right because you all are off, which is allowed. Just got to be done.	NULL
+34	 Of course.	NULL
+166	 An example would be of, it's like a forward stocking, LCAM says it's out there, but then when we talk tech with  , the packet is not there, or some some situation that can't use that. They can't go back and change it to pick it up in stock.	A
+1041	 Oh, there's the mouse cursor.  the mouse cursor. I think I'm close to getting it fixed. I should finish it today. Null and blank  have been my enemy.	A
+36	 Yeah. Well, that's life.	NULL
+41	 Now you've put the pressure on me. Now I can't do it.	NULL
+39	 If I could get an hour and a half, two hours together. I could finish that one. I'll finish today.	NULL
+43	 I'm just kidding. It's OK.	NULL
+32	 With your permission, right?	NULL
+15	 What else will we  ?	NULL
+4832	 The other thing that I had on my list was the CTDI interface and the ship to email that came out this morning. I don't know what our options are at this point and we don't have time to make code changes, so I don't think putting the ship to codes in as CLLIs is a viable solution.	A
+538	 If they're not, I need to strip those out, but we'd also need to know whether we can or can't ship a plug to one of those particular locations, and if something needs to go there, where it needs to be shipped to, via, to get there.	A
+4720	 We did have that story in the backlog about adding the ability to mass update, as a whole story. We had that one in the backlog, because Adam had not ever added the...It's like a whole separate story, so we can put this task under that. It's basically the same thing, right?	F
+40	 OK. That'll be good. If he's going to finish this one today, it would actually be good to wait until Monday to get our next release because then we'll have the reports that we can test and this serialized change on the UI.	NULL
+810	 We're working,  to see what would be a report that would be good for us to go through. We'll get that figured. Kim wanted to talk about those fallouts, try to do it as a group, so we're not having any conflicts. We can work definitely on that. I don't have anything else.	F
+42	 build until next week.	NULL
+223	 Yeah, I've done that. We're working on where that might be confusing. And the other item, I don't know if we've had it out there before, but the  group, and, well, both groups, I don't know if it's on anything, but CLLI code with the wild card...That's a big request.	F
+4832	 The other thing that I had on my list was the CTDI interface and the ship to email that came out this morning. I don't know what our options are at this point and we don't have time to make code changes, so I don't think putting the ship to codes in as CLLIs is a viable solution.	A
+810	 We're working,  to see what would be a report that would be good for us to go through. We'll get that figured. Kim wanted to talk about those fallouts, try to do it as a group, so we're not having any conflicts. We can work definitely on that. I don't have anything else.	F
+990	 So you're saying that you've received new equipment  by looking at the wires? By wired information? But you haven't seen any of that evidence in LCAM, is that right?	F
+537	 It was quite a while ago, and to be honest, it could have been you that said it or somebody else. Neither here nor there. That's the next barrier I'm coming across, is I need to know whether or not the G team's ship-to code is indeed a valid ship-to code for those locations that are in the extract. If they are, I'll need those addresses. I really just don't know where to find them, if they are in the extract or not.	F
+223	 Yeah, I've done that. We're working on where that might be confusing. And the other item, I don't know if we've had it out there before, but the  group, and, well, both groups, I don't know if it's on anything, but CLLI code with the wild card...That's a big request.	F
+26	 Yeah.	NULL
+38	 If you could ever get two hours.	NULL
+17	 Nothing from me.	NULL
+1168	 So, what they do today, the reason they want this, is they go in and they select plugs and hardwire combined, and they retire them. When they retire them, they go over to  , and when they go to  , they have to have an estimate on them.	A
+		

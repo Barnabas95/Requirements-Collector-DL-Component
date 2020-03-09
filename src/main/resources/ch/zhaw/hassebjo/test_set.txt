@@ -1,0 +1,15 @@
+4960	 OK, great, because that was one of the whole things that was weighing on me, because I'm like, "I don't know when we're going to have time to get together and do these estimates, because we have all this other stuff we're trying to get done."	NULL
+4952	 I've created some scripts. I would do it, personally, but sometimes our VPN connection is a little iffy and to have it drop in the middle of like extracting the assets, that could be a two-hour process. That would be quite painful.	NULL
+800	 The only error that's showing up right now is the  Not Found, so we need to track down exactly...	NULL
+1069	 Yeah, for the period. What do you want to call your task?	NULL
+1633	 I went up there to help give them the demo, but I didn't go up there for the actual activity. Patrick went up for that. When I was there for the demo and to meet them for the first time, yeah, they put it on some laptops and went around the warehouse and did some sample scanning. So I guess they could do that, But the thing is could they do it for the field?	NULL
+83	 Violet and I are working through preparing to bring in some of the call-out data and we're seeing some inconsistencies in the data that's already in there. Do you want us to just document those and send them to you or is there another method we should be using?	A
+189	 The reason I'm bringing this up is because I wanted to see what your response was so I could explain it to him.  order approval  function...	A
+799	 Hey, Kevin. Yesterday Shield started sending receive equipment, notifications back to LCAM. Adam was looking at that. There are about 60, that were in the SEC stream, that we need you all to look at because they came across and got an SEC error.	A
+824	 The other one was the nightly snapshots to check that we're all in sync.	A
+4806	 It appears that it's a small sample, but two days, we have more ports in use today than we did yesterday about this same time. I don't know if there's something that is using those ports and then not releasing those resources.	A
+824	 The other one was the nightly snapshots to check that we're all in sync.	F
+4806	 It appears that it's a small sample, but two days, we have more ports in use today than we did yesterday about this same time. I don't know if there's something that is using those ports and then not releasing those resources.	F
+799	 Hey, Kevin. Yesterday Shield started sending receive equipment, notifications back to LCAM. Adam was looking at that. There are about 60, that were in the SEC stream, that we need you all to look at because they came across and got an SEC error.	F
+2462	 Who's going to backup the production database?	F
+4932	 Let's back up a little bit. I do see some hours that Alden needs to do some work. If we take it down at 5:00 PM Pacific Time on the 1st and leave it down, I am pretty sure, unless Kim or Larry or we need to be in there for some reason, there is nobody going to be using that database. If it's imperative for Alden to have it after 5:00 PM on the first...	F
