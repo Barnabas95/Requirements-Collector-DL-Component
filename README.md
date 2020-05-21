@@ -20,5 +20,9 @@ any later version.
 
 #### Get started with the *"Deep-Learning-classifier"* component of Requirement-Collector
 Please clone this repository and copy the content of the folder to a local folder of your choice.
-Inside this folder you find the *"src"* folder, containing all required executable files for enabling the automated classification of requirements  specification  from Requirement meetings transcripts. Example of data are provided to experiment with the automated classification of Audio Transcripts of Requirement meetings.
+Inside this folder you find the *"src"* folder, containing all required executable files for enabling the automated classification of requirements  specification  from Requirement meetings transcripts. Example of data are provided to experiment with the automated classification of Audio Transcripts of Requirement meetings. You can run and explore the code by importing in in your favourite IDE. The following figure exemplify the results from running the DL Component.
+
+![] (https://github.com/lmruizcar/Requirements-Collector-DL-Component/master/RequirementsCollectorDLOutputExample.png)
+
+
 
