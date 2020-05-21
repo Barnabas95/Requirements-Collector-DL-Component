@@ -10,3 +10,15 @@ Requirements-Collector: (Automating Requirements Specification from Elicitation 
 
 **Requirement-Collector Context:**
 ![](https://github.com/spanichella/Requirement-Collector-tool/blob/master/Pipeline_AutomatedRE-RE20-P%26D.png)
+
+### Description of the content of folder "Requirements-Collector":
+
+#### License
+This program is a free software you can redistribute it under the terms of the GNU Public License
+as published by the Free Software Fundation either version 2 of the License, or (at your option)
+any later version.
+
+#### Get started with the *"Deep-Learning-classifier"* component of Requirement-Collector
+Please clone this repository and copy the content of the folder **"Requirements-Collector"** a local folder of your choice.
+Inside this folder you find the *"Machine-Learning-classifier"* folder, containing all required executable files for enabling the automated classification of requirements  specification  from Requirement meetings transcripts and  user  feedback  in for of user reviews. Example of data are provided to experiment with the automated classification of Audio Transcripts of Requirement meetings as well as the automated classification of user reviews feedback.
+
