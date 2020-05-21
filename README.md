@@ -25,4 +25,9 @@ Inside this folder you find the *"src"* folder, containing all required executab
 ![](https://github.com/lmruizcar/Requirements-Collector-DL-Component/blob/master/RequirementsCollectorDLOutputExample.png)
 
 
+## References
+
+[1] M. Ruiz and B. Hasselmann, "Can We Design Software as We Talk: A research idea, International working conference on Exploring Modeling Methods for Systems Analysis and Development, 2020
+  
+[2] S. Panichella, A. Di Sorbo, E. Guzman, C. A. Visaggio, G. Canfora, andH. C. Gall, “Ardoc: App reviews development oriented classifier,” International Symposium Foundations of Software Engineering, 2016
 
