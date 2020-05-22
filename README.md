@@ -24,6 +24,10 @@ Inside this folder you find the *"src"* folder, containing all required executab
 
 ![](https://github.com/lmruizcar/Requirements-Collector-DL-Component/blob/master/RequirementsCollectorDLOutputExample.png)
 
+#### Requirements
+- Java 13
+- Cores: [8]
+- Memory: [4.9GB]
 
 ## References
 
