@@ -3,7 +3,6 @@ package ch.zhaw.widmemor;
 import ch.zhaw.hassebjo.Word2VecTest;
 import ch.zhaw.widmemor.model.UserStory;
 import ch.zhaw.widmemor.model.UserStoryContainer;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang.ArrayUtils;
 import org.deeplearning4j.eval.Evaluation;
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
@@ -41,8 +40,6 @@ public class ClassifyUserStoriesImpl implements ClassifyUserStories {
 
     private static final String RESOURCE = "ch/zhaw/hassebjo/";
     private static final String GLOVE_VECTORS = RESOURCE + "glove.6B." + GLOVE_DIM + "d.txt";
-    private static final String LABELLED_TURNS = RESOURCE + "train_set_mini.txt";
-    private static final String TEST_SET = RESOURCE + "test_set.txt";
 
     private static final String MODELS_DIRECTORY = "output/models";
 
@@ -57,8 +54,6 @@ public class ClassifyUserStoriesImpl implements ClassifyUserStories {
         WordVectors wordVectors = getWordVectors();
 
         MultiLayerNetwork model = getModel();
-
-        //URL validationSet = loadResource(TEST_SET);
 
         //input columns must be 10000 for test_set.txt - idk why
         //words per Turn is a guess at how many words a person speaks?
@@ -93,48 +88,38 @@ public class ClassifyUserStoriesImpl implements ClassifyUserStories {
     }
 
     private static UserStoryContainer evaluate(Integer projectId,
-                                 byte[] inputBytes,
-                                 MultiLayerNetwork model,
-                                 WordVectors wordVectors,
-                                 int inputColumns,
-                                 int wordsPerTurn) throws IOException {
-
+                                               byte[] inputBytes,
+                                               MultiLayerNetwork model,
+                                               WordVectors wordVectors,
+                                               int inputColumns,
+                                               int wordsPerTurn) throws IOException {
 
         int numberOfLines = getNumberOfLines(new ByteArrayInputStream(inputBytes));
 
-        List<INDArray> inputList = new ArrayList<>(numberOfLines);
+        List<INDArray> inputList = new ArrayList<>();
         double[][] labelsList = new double[numberOfLines][];
 
         UserStoryContainer userStoryContainer = new UserStoryContainer();
+        List<Integer> excludedIndexes = new ArrayList<>();
 
-        ByteArrayInputStream inputStream = new ByteArrayInputStream(inputBytes);
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(new ByteArrayInputStream(inputBytes)))) {
 
             String line;
             int labelsId = 0;
+            int currentLine = 0;
             while ((line = reader.readLine()) != null) {
                 String[] lineAr = line.split(INPUT_TURN_DELIMITER_PATTERN);
                 Optional<INDArray> inputMatrix = getInputValueMatrix(lineAr, wordVectors, wordsPerTurn);
-                inputList.add(inputMatrix.get().ravel());
-
-
-                labelsList[labelsId++] = getEvalLabel(lineAr);
-
-                String labelStr = lineAr[2];
-                if (labelStr.equals("F")) {
-                    UserStory userStory = new UserStory(projectId, lineAr[1].trim());
-                    userStoryContainer.addUserStory(userStory);
-
-                    /*ObjectMapper objectMapper = new ObjectMapper();
-                    String userStoryAsString = objectMapper.writeValueAsString(userStory);
-                    System.out.println(userStoryAsString);*/
+                if (inputMatrix.isPresent()) {
+                    inputList.add(inputMatrix.get().ravel());
+                    labelsList[labelsId++] = getEvalLabel(lineAr);
+                } else {
+                    excludedIndexes.add(currentLine);
                 }
+                currentLine++;
+
             }
         }
-
-        ObjectMapper objectMapper = new ObjectMapper();
-        String userStoryContainerAsString = objectMapper.writeValueAsString(userStoryContainer);
-        System.out.println(userStoryContainerAsString);
 
         INDArray evalInput = Nd4j.create(inputList, shape(numberOfLines, inputColumns));
         INDArray evalLabels = Nd4j.create(labelsList);
@@ -142,7 +127,39 @@ public class ClassifyUserStoriesImpl implements ClassifyUserStories {
         eval.eval(evalLabels, evalInput, model);
         LOGGER.info(eval.stats());
 
+        int[] results = model.predict(evalInput);
+        List<String> resultSentences = new ArrayList<>();
+
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(new ByteArrayInputStream(inputBytes)))) {
+            String line;
+            int currentLine = 0;
+            while ((line = reader.readLine()) != null) {
+                String[] lineAr = line.split(INPUT_TURN_DELIMITER_PATTERN);
+                if (!excludedIndexes.contains(currentLine)) {
+                    resultSentences.add(lineAr[1].trim());
+                }
+            }
+        }
+
+        //create "Non-Functional" User Stories
+        createUserStories(projectId, userStoryContainer, results, resultSentences, 1);
+        //create "Functional" User Stories
+        createUserStories(projectId, userStoryContainer, results, resultSentences, 2);
+
         return userStoryContainer;
+    }
+
+    private static void createUserStories(Integer projectId,
+                                          UserStoryContainer userStoryContainer,
+                                          int[] results,
+                                          List<String> resultSentences,
+                                          int labelId) {
+        for (int i = 0; i < results.length; i++) {
+            if (results[i] == labelId) {
+                UserStory userStory = new UserStory(projectId, resultSentences.get(i));
+                userStoryContainer.addUserStory(userStory);
+            }
+        }
     }
 
     private static int getNumberOfLines(ByteArrayInputStream textForClassification) throws IOException {
@@ -214,14 +231,14 @@ public class ClassifyUserStoriesImpl implements ClassifyUserStories {
      * Filter words which are not in the vocabulary, to prevent failing edge cases
      */
     private static List<String> getWordList(String[] textWordAr, WordVectors wordVectors) {
-        return List.of(textWordAr).stream().filter(w -> wordVectors.hasWord(w)).collect(Collectors.toList());
+        return List.of(textWordAr).stream().filter(wordVectors::hasWord).collect(Collectors.toList());
     }
 
     private static int[] shape(int rows, int columns) {
         return new int[]{rows, columns};
     }
 
-    private static final URL loadResource(String name) throws FileNotFoundException {
+    private static URL loadResource(String name) throws FileNotFoundException {
         LOGGER.info("loading " + name);
         URL url = Word2VecTest.class.getClassLoader().getResource(name);
         return Optional.ofNullable(url).orElseThrow(() -> new FileNotFoundException(name));

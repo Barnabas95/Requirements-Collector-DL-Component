@@ -1,0 +1,72 @@
+1	 What information do you need from this system that you do not have now?	NULL
+2	 We need a system that can simulate the autonomous race car and calculate different simulation scenarios. Right now we do not have any such existing system, however we know that these exist from other Formula Student teams. Maybe there are even open source systems. Primarly, this tool should be concepted for the Driverless team, but maybe should be able to be adapted in the future to include simulations for the mechanical and electrical simulations for things like aerodynamics, suspension force and so on calculations.	F
+3	 How would you like to see this information? What should be the output?	NULL
+4	 It would be nice to have this as a desktop software program that generates the simulations (maybe using matlab simulink or other simulation programs) and then displays the simulations and calculated outputs.	F
+5	 What should our version do that others cannot?	NULL
+6	 I don't know any other versions.	NULL
+7	 What Operating Systems should be supported?	NULL
+8	 Of the car? Sorry, this is unclear to me	NULL
+9	 What are the must have requirements?	NULL
+10	 The tool should provide different simulation scenarios of which the user can pick which one to run.	F
+11	 How accurate does the system need to be?	NULL
+12	 Very accurate as this needs to be valid for real-time systems.	A
+13	 In what shape or form do we receive tracks?	NULL
+14	 Please ask Mapping team (Nicolas Borla or Jonas Langenegger).	NULL
+15	 What kind of sensors do you use?	NULL
+16	 GPS, IMU, Wheel Encoders, Actuators for steering, drives and brakes, camera, lidar	A
+17	 How do they work?	NULL
+18	 How detailed does this question need to be answered?	NULL
+19	 In what form do we have access to the pathfinding/decision making algorithm?	NULL
+20	 Please ask jonas Langenegger	NULL
+21	 Where is it located?	NULL
+22	 Please ask jonas Langenegger	NULL
+23	 Is it finished?	NULL
+24	 Probably not	NULL
+25	 In what circumstances is the System used?	NULL
+26	 To test the driverless environment before competitions	A
+27	 During Development?	A
+28	 Yes	A
+29	 Before a race?	A
+30	 Yes	A
+31	 Who uses the System?	NULL
+32	 The driverless team, who develop algorithms and sensor data for the car. Maybe specifically people in control over the controls / actuators, and driverless calculation algorithms	A
+33	 What level of expertise do they have?	NULL
+34	 They should be experts on the systems that they develop.	NULL
+35	 What are your team specific priorities for the system?	NULL
+36	 What constraints do we have?	NULL
+37	 Monetary constraints (zero budget for this) and time constraint (first real prototype should be ready at the End of june).	A
+38	 Are there technical constraints to developing this system?	NULL
+39	 Monetary costs, need to approve a budget in case one is needed	A
+40	 Are there resource constraints in maintaining the system?	NULL
+41	 Monetary costs and time costs, space constraints are unclear should be none.	A
+42	 Are there any security concerns? (sensitive data, things that must be kept secret)	NULL
+43	 I believe not?	NULL
+44	 Is there data that should be kept save in case of a system crash?	NULL
+45	 Yes, it might be smart to save the simulated data and have backups. If the system crashes during a simulation, the current simulation data might not have to be saved	F
+46	 Do we need a History of tested simulations and their results?	F
+47	 Yes please	F
+48	 When do you need a prototype?	NULL
+49	 Final prototype in June 2021. Maybe some smaller prototypes or showing of advancement before that would be great.	A
+50	 Who should we talk to in addition to you?	NULL
+51	 The team.	NULL
+52	 Very Specific Questions, some might not be of your concern.	NULL
+53	 Should there be a function to report bugs and crashes?	F
+54	 Yes	F
+55	 What languages need to be supported?	A
+56	 English	A
+57	 Is only English okay?	A
+58	 Yes	A
+59	 Should there be the possibility to add additional languages?	NULL
+60	 No	NULL
+61	 Should the System check for rule conformity?	F
+62	 Would be a nice to have	F
+63	 What should be checked?	NULL
+64	 If the input is even in a valid range. For example no velocity > 300 km/h and so on.	F
+65	 Should the system check for optimisation?	F
+66	 Yes!	F
+67	 Should there be different modes?	NULL
+68	 Yes, there should be simulations for the different missions which correspond to the race competitions	F
+69	 What modes?	NULL
+70	 Acceleration, Skidpad, Autocross, Trackdrive, EBS test, Inspection, Manual driving.	F
+71	 What are ideas that you have? No matter how crazy	NULL
+72	 Maybe accounts for the tools, so that one person can save their simulations and share with other users, or teams and can check the history of their simulated data.	F
