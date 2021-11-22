@@ -55,8 +55,6 @@ public class ClassifyUserStoriesImpl implements ClassifyUserStories {
 
         MultiLayerNetwork model = getModel();
 
-        //input columns must be 10000 for test_set.txt - idk why
-        //words per Turn is a guess at how many words a person speaks?
         return evaluate(projectId, inputBytes, model, wordVectors, 10000, 100);
 
     }
@@ -94,52 +92,36 @@ public class ClassifyUserStoriesImpl implements ClassifyUserStories {
                                                int inputColumns,
                                                int wordsPerTurn) throws IOException {
 
-        int numberOfLines = getNumberOfLines(new ByteArrayInputStream(inputBytes));
+        int actualInputCount = getActualInputCount(new ByteArrayInputStream(inputBytes), wordVectors, wordsPerTurn);
 
-        List<INDArray> inputList = new ArrayList<>();
-        double[][] labelsList = new double[numberOfLines][];
+        List<INDArray> inputList = new ArrayList<>(actualInputCount);
+        double[][] labelsList = new double[actualInputCount][];
 
         UserStoryContainer userStoryContainer = new UserStoryContainer();
-        List<Integer> excludedIndexes = new ArrayList<>();
+        List<String> resultSentences = new ArrayList<>(actualInputCount);
 
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(new ByteArrayInputStream(inputBytes)))) {
 
             String line;
             int labelsId = 0;
-            int currentLine = 0;
             while ((line = reader.readLine()) != null) {
                 String[] lineAr = line.split(INPUT_TURN_DELIMITER_PATTERN);
                 Optional<INDArray> inputMatrix = getInputValueMatrix(lineAr, wordVectors, wordsPerTurn);
                 if (inputMatrix.isPresent()) {
                     inputList.add(inputMatrix.get().ravel());
                     labelsList[labelsId++] = getEvalLabel(lineAr);
-                } else {
-                    excludedIndexes.add(currentLine);
+                    resultSentences.add(lineAr[1].trim());
                 }
-                currentLine++;
-
             }
         }
 
-        INDArray evalInput = Nd4j.create(inputList, shape(numberOfLines, inputColumns));
+        INDArray evalInput = Nd4j.create(inputList, shape(inputList.size(), inputColumns));
         INDArray evalLabels = Nd4j.create(labelsList);
         Evaluation eval = new Evaluation(3);
         eval.eval(evalLabels, evalInput, model);
         LOGGER.info(eval.stats());
 
         int[] results = model.predict(evalInput);
-        List<String> resultSentences = new ArrayList<>();
-
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(new ByteArrayInputStream(inputBytes)))) {
-            String line;
-            int currentLine = 0;
-            while ((line = reader.readLine()) != null) {
-                String[] lineAr = line.split(INPUT_TURN_DELIMITER_PATTERN);
-                if (!excludedIndexes.contains(currentLine)) {
-                    resultSentences.add(lineAr[1].trim());
-                }
-            }
-        }
 
         //create "Non-Functional" User Stories
         createUserStories(projectId, userStoryContainer, results, resultSentences, 1);
@@ -162,15 +144,21 @@ public class ClassifyUserStoriesImpl implements ClassifyUserStories {
         }
     }
 
-    private static int getNumberOfLines(ByteArrayInputStream textForClassification) throws IOException {
+    private static int getActualInputCount(ByteArrayInputStream textForClassification,
+                                           WordVectors wordVectors,
+                                           int wordsPerTurn) throws IOException {
+        int actualInputCount = 0;
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(textForClassification))) {
-            int noOfLines = 0;
-            try (LineNumberReader lineNumberReader = new LineNumberReader(reader)) {
-                lineNumberReader.skip(Integer.MAX_VALUE);
-                noOfLines = lineNumberReader.getLineNumber() + 1;
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] lineAr = line.split(INPUT_TURN_DELIMITER_PATTERN);
+                Optional<INDArray> inputMatrix = getInputValueMatrix(lineAr, wordVectors, wordsPerTurn);
+                if (inputMatrix.isPresent()) {
+                    actualInputCount++;
+                }
             }
-            return noOfLines;
         }
+        return actualInputCount;
     }
 
     private static double[] getEvalLabel(String[] lineAr) {
