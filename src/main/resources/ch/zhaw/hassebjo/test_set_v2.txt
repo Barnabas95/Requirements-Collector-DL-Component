@@ -1,0 +1,185 @@
+4960	 OK, great, because that was one of the whole things that was weighing on me, because I'm like, "I don't know when we're going to have time to get together and do these estimates, because we have all this other stuff we're trying to get done."	NULL
+4952	 I've created some scripts. I would do it, personally, but sometimes our VPN connection is a little iffy and to have it drop in the middle of like extracting the assets, that could be a two-hour process. That would be quite painful.	NULL
+800	     The only error that's showing up right now is the  Not Found, so we need to track down exactly...	NULL
+1069	 Yeah, for the period. What do you want to call your task?	NULL
+1633	 I went up there to help give them the demo, but I didn't go up there for the actual activity. Patrick went up for that. When I was there for the demo and to meet them for the first time, yeah, they put it on some laptops and went around the warehouse and did some sample scanning. So I guess they could do that, But the thing is could they do it for the field?	NULL
+83	     Violet and I are working through preparing to bring in some of the call-out data and we're seeing some inconsistencies in the data that's already in there. Do you want us to just document those and send them to you or is there another method we should be using?	A
+189	     The reason I'm bringing this up is because I wanted to see what your response was so I could explain it to him.  order approval  function...	A
+799	     Hey, Kevin. Yesterday Shield started sending receive equipment, notifications back to LCAM. Adam was looking at that. There are about 60, that were in the SEC stream, that we need you all to look at because they came across and got an SEC error.	A
+824	     The other one was the nightly snapshots to check that we're all in sync.	A
+4806	 It appears that it's a small sample, but two days, we have more ports in use today than we did yesterday about this same time. I don't know if there's something that is using those ports and then not releasing those resources.	A
+824	     The other one was the nightly snapshots to check that we're all in sync.	F
+4806	 It appears that it's a small sample, but two days, we have more ports in use today than we did yesterday about this same time. I don't know if there's something that is using those ports and then not releasing those resources.	F
+799	     Hey, Kevin. Yesterday Shield started sending receive equipment, notifications back to LCAM. Adam was looking at that. There are about 60, that were in the SEC stream, that we need you all to look at because they came across and got an SEC error.	F
+2462	 Who's going to backup the production database?	F
+4932	 Let's back up a little bit. I do see some hours that Alden needs to do some work. If we take it down at 5:00 PM Pacific Time on the 1st and leave it down, I am pretty sure, unless Kim or Larry or we need to be in there for some reason, there is nobody going to be using that database. If it's imperative for Alden to have it after 5:00 PM on the first...	F
+7600	Okay. This is the interview with Jonas. So do you have a? What kind of informations do you need from the system that you now not have? Or do you have a general idea?	NULL
+7601	Yeah, I think for us the most important information is to have a simulation environment where we can input some acceleration or steering angle. And then we will have an output of the ground truth of all states like velocity, acceleration, and maybe also some outputs of sensors like LIDAR, IMU and GPS. Yeah, and it would also be nice to have a visualization but more just for debugging or just to directly seed output.	F
+7601	Yeah, I think for us the most important information is to have a simulation environment where we can input some acceleration or steering angle. And then we will have an output of the ground truth of all states like velocity, acceleration, and maybe also some outputs of sensors like LIDAR, IMU and GPS. Yeah, and it would also be nice to have a visualization but more just for debugging or just to directly seed output.	A
+7602	Okay. What is IMU?	NULL
+7603	Inertial measurement unit. So it measures the acceleration or rotational velocities.	NULL
+7604	Okay. Okay, the next question, pretty much answered. All your live citizen from ran in the output?	NULL
+7605	Yeah. For now, and nearly all teams did it for us. I think it's also the being at the beginning. I also thought why Ross, we can also do just without Ross and just write everything in c++ or so. But I think it's really, it's really nice for developing because it's easy to split the code. And then you just have to define the, the message types.	A
+7606	Yeah.	NULL
+7607	And so it's very easy to test different things.	NULL
+7608	Yeah.	NULL
+7609	There's also some kind of a big team, I think it's really easy to prototype. Yeah, I think that's what we, what we liked about it so far. But maybe there's also a bit the problem with for us about real time, sometimes the message. Yeah, you don't exactly really know when, from which time it was generated or so.	A
+7610	yes, anything you already know that the other teams can do. And maybe you have an idea of what our simulation tool can do additionally.	NULL
+7611	You ever thought would be really nice if we if it could have something like that we could store like, three or four different configurations, like with different controller parameters or something, then just run it overnight? And do it like 1000 times and then have an output of Yeah. I don't know, maybe the overall time or the tracking performance? I don't know. Something like that. Just just to take advantage of the simulation tool. Yeah. I think so far the tools online. Yeah. I mean, you could do it by yourself. For now. Yeah. It's possible. But then yeah, it's not already given in the simulation tools available. available. Okay.	F
+7612	Okay. Yeah. Very important question. What systems do we have to import? So, to the right, if it's only on Linux, or?	NULL
+7613	Yeah, I think Linux ubuntu to carrots.	A
+7614	That makes things a lot easier.	NULL
+7615	Yeah, some must-have requirements. Yeah. I think we also pretty much answered.	NULL
+7616	Yeah, give the oldest states have a dynamic model.	NULL
+7617	Yeah I like the velocity speed and, and, and also the ground truth. Yeah, I mean, the results and maybe also have a tool to generate any random track maybe that is complying with the rules.	F
+7618	Okay. Yeah, that would be a good idea.	F
+7619	I think that but the I think they already have it. They already have within this from Edinburgh. But it's Yeah. Yeah. doesn't work out really well.	NULL
+7620	Yeah. So read something about it that it works somewhat, but there are still some problems. Maybe we can improve them.	NULL
+7621	Well, if we say we simulate the race car on the tracks, how accurate does it have to be to be useful for you?	NULL
+7622	Yeah, it's actually been really difficult because I mean, the model that is used right now in Edinburgh is also just any dynamic model. And you can always make it more accurate. But then you also have to identify those parameters. And that's really depends on the race cars. So first, we actually would have to be able to take some measurements. Yeah, yeah. Accurate? Yeah, it's really hard to answer. But I think the dynamic model that they use so far is already quite good.	F
+7623	Okay. So we figured that there are some tracks already or some virtual tracks. in what form? Do we receive them? Is it the same as with the Edinburgh tool or.	A
+7624	I think this will be still open to be to define I don't know, I think add with a CSV file. I think that's okay. Yeah.	A
+7625	Okay. Yeah, that's a little bit more specific. Do you use specific sensors? And yeah, how do they work? I mean, we both studied system technique for one year. So we have general idea how sensors work in the base. But is it already defined what sensors do you use or is it just still open? Or are you the wrong person to ask that question?	NULL
+7626	And I mean, maybe that's asked first. And what kind of sensors, I think the most important for us is the LIDAR. LIDAR just returns a point cloud of, of points. I mean, the one we use has, like 32 layers. And I don't know what the angle is in, in the horizontal direction, maybe just returns at points that you can measure with the distance, or Yeah, that's just a 3d point Cloud. Yeah. And this is also for us the most one of the most important sensors because it Yeah, the sensor is really accurate. And in in rosters, the simulation environment, I think, I'm not sure if it's in always org acebo. This is all a package, both packages of Ross. And Dario can also already simulate this 3d Point Cloud. So this is maybe something that yeah. Yeah, maybe a camera. But camera. I'm not. It's hard how to simulate the camera than you. That's maybe actually I don't know. That's maybe like an overkill? Maybe. An IMU for sure. I think that's not alright. I think that's not implemented. So far, but actually, I knew it just gives you the acceleration and rotational velocities. There's, you can test there some sensor fusion things, if you would have that implemented. Yeah, the apex would be nice. Yeah. And the GPS also. And maybe encoders. And that gives them the angle of the, or the counts of the wheel, when you will take the wheel. Yeah. And yeah, I'm probably also ground speed sensor. This one would just give you the velocity of the vehicle at a certain point. Yeah, I think in for this simulation, there it will be may be nice to have like a ground truth of all these sensors like in the perfect distance of the LIDAR, and the absolutely accurate position of the GPR. So So and maybe also that could add some noise. And then then we could also test some some algorithms to make sense of fusion.	F
+7626	And I mean, maybe that's asked first. And what kind of sensors, I think the most important for us is the LIDAR. LIDAR just returns a point cloud of, of points. I mean, the one we use has, like 32 layers. And I don't know what the angle is in, in the horizontal direction, maybe just returns at points that you can measure with the distance, or Yeah, that's just a 3d point Cloud. Yeah. And this is also for us the most one of the most important sensors because it Yeah, the sensor is really accurate. And in in rosters, the simulation environment, I think, I'm not sure if it's in always org acebo. This is all a package, both packages of Ross. And Dario can also already simulate this 3d Point Cloud. So this is maybe something that yeah. Yeah, maybe a camera. But camera. I'm not. It's hard how to simulate the camera than you. That's maybe actually I don't know. That's maybe like an overkill? Maybe. An IMU for sure. I think that's not alright. I think that's not implemented. So far, but actually, I knew it just gives you the acceleration and rotational velocities. There's, you can test there some sensor fusion things, if you would have that implemented. Yeah, the apex would be nice. Yeah. And the GPS also. And maybe encoders. And that gives them the angle of the, or the counts of the wheel, when you will take the wheel. Yeah. And yeah, I'm probably also ground speed sensor. This one would just give you the velocity of the vehicle at a certain point. Yeah, I think in for this simulation, there it will be may be nice to have like a ground truth of all these sensors like in the perfect distance of the LIDAR, and the absolutely accurate position of the GPR. So So and maybe also that could add some noise. And then then we could also test some some algorithms to make sense of fusion.	A
+7627	Yeah. is there already pathfinding algorithm? And if yes, where is it?	NULL
+7628	Yeah, I did already some thing. It's also on GitHub. It's not really something complicated or anything, it just looks a search standard middle line between the yellow and the blue cones. And, yeah, that's actually also why we use the simulation tool, because it's easy to test if the output is correct of the pathfinding. So, yeah, that's actually why we needed this simulation tool and why we decided to take this from Edinburgh. For now.	NULL
+7629	Which repository on GitHub, is it?	NULL
+7630	I think it's perfect planner.	NULL
+7631	Just to be sure.	NULL
+7632	And to control after that will be to, yeah. When we have found the path to guide the rico through the?	NULL
+7633	Yes. Yeah. So that's, there's something that's working progress.	NULL
+7634	Yeah. Okay. Okay. Yeah, actually, yeah.	NULL
+7635	It's mainly written in?	A
+7636	c++.	A
+7637	That's going to be shown.	NULL
+7638	What are you use to?	NULL
+7639	Java, python and C sharp, C, little bit of JavaScript but c++ is something that we're not quite used to be working with. Yeah, we've been? I'm pretty sure we can work with it. Yeah, in what circumstances is the system used? Is it mainly used during development is it meant to be used during work before a race or?	A
+7640	Especially for me for death planning and control, it's also during development, because it's easy to just see the algorithm roughly works, then I think you have to do anyway, take real measurements, because it's never the same. But it's Yeah, for me, it's really during development. And maybe also for the path planning. I also think there's one category in Formula Student track drive. And in this category, you already have three, even the path in the category auto across, this is the one where you just write one loop. And then you have the measurements already have the cones to position. And then you have also time to near postprocessor. Just like calculate the perfect race line or something. And then it would be nice to be able to test it also during the race.	A
+7641	Okay.	NULL
+7642	But it will be actually only be this category.	NULL
+7643	Who is the one that uses the system? What is their level of expertise? Because I don't know someone who has no it knowledge or something.	A
+7644	Yeah. So it for now it's me and Nick, who are who are using this system? Yeah, I'm we have knowledge about I don't know, may more from the other side, maybe like more from system dynamics. And but we have also some experience in c++, and Ross. And yeah, I think that might be also mandatory, I don't know, to have there some basic knowledge. Because you also have to develop the code anyway. So you have to program and yeah.	A
+7645	So it means it's not a problem if you have to start the program on the console, or do you need yet Would you like to have a small icon on the desk or very can double click on and everything?	NULL
+7646	Yeah, I think that's not really necessary. I think it's more important.	NULL
+7647	Yeah, this asking because, yeah, in the end, if someone wants to use it, and yeah, oh, we'll have to use the console. Oh, that's a problem.	NULL
+7648	Yeah. I mean, if it's really just for us for developing other code, Then it's okay.	NULL
+7649	to specific priorities are already mentioned, I guess. Do we have any constraints, like? To know?	NULL
+7650	Maybe? Yeah, maybe. But it's already said in the what system should be supported. I think it's, I think, yeah, we can could also constrain this to ubuntu and Ross. But maybe it should also run on average laptop. I don't know if this is yes. Necessary or not,	A
+7651	that's probably gonna happen anyway, because we're developing it probably in a virtual machine. So yeah. More like, and let's say we get inspired by or we do let us inspire by the Edinburgh tool. And yeah in the end we get told. Yeah, you can't use that because it's 50% is from Edinburgh, you just added 50% on top of it. Is that a problem or?	NULL
+7652	Half for us? Or if it's a problem, if you would just take that and improve it or? I think No, I think it actually makes no sense. Because they also open sourced it. So it also they were lobbied for? Yeah.	NULL
+7653	Yeah, technical constraints and resource constraints. Yeah. Well, technical constraints, this should run on a laptop.	A
+7654	Yeah probably.	A
+7655	And the resource constraints are the same. Yeah.	NULL
+7656	Yeah, maybe, I don't know, maintaining maybe. The problem is that every year the team changes. So it maybe should be easy to? I don't know. Yeah. Good. documented.	A
+7657	All right. Good documentation. And code should be nice, clean and understandable. Yeah, yeah.	A
+7658	Yeah. Yeah, I think that's	NULL
+7659	Are there any security concerns like sensitive data or things that must be kept secret. For example, it should be good if the the results of the simulations are encrypted, so no one can steal it, because it's only our own. Things that only we are supposed to see and no one else?	NULL
+7660	I don't think so.	NULL
+7661	Yeah, I think the next question is pretty much answered. Yeah, it would be nice if we had the history of the run simulations. And if that would not all be deleted, if the video shows at any point.	F
+7662	Yeah, yeah.	F
+7663	Yes, history is already pretty good. If you have one. When do you need a prototype?	F
+7663	Yes, history is already pretty good. If you have one. When do you need a prototype?	A
+7664	And, I mean, for us, we will finish our master thesis in in August or should be finished with about maybe June? I don't know. So I think we will anyway, use this tool that we have right now. Okay, but maybe for the next team. It will be nice to have it in October, I guess.	A
+7665	Okay, so october this year?	A
+7666	Yeah. Yeah. Yeah. I mean, it would also be okay. Like in January next year, depends when they will start.	A
+7667	Okay, so we don't we have somewhat a little bit of a time pressure but it would be earlier the better. Who do we talk to in addition to you, so far, we have also asked Jasmine then we also have already scheduled an interview her who do you think we should talk to?	NULL
+7668	Nick is also using this tool, but I also went through these questions with him just before so probably he wouldn't have anything new here. So because we are for now just we are using the simulation. Yeah.	NULL
+7669	Okay, yeah. Little more specific questions. We had the idea of that there might be, that we could add a button where you can report a bug or some crashes or something like that sort of everything gets collected and sent to us. Yeah, or we just use the function on the github. So people can just report crashes and problems there. What are your thoughts on that?	F
+7670	Yeah, yeah, I think it will be already good if it will be on GitHub.	F
+7671	What languages need to be supported? as not programming languages.	A
+7672	Yeah, English is okay. I think.	A
+7673	Do we need the possibility to add other languages?	NULL
+7674	In my opinion I think not. Because, yeah, nearly everyone speaks English today. And sometimes it's, for me as a for me personally, it's also easier if just everything is English, don't have to change all the time.	NULL
+7675	We had also the idea that we could maybe use the tool let the system check for race conformity. So if everything's legal, for example, if you had a very accurate 3d model that the system already checks, checks, a few things like yet you have to have a light on top of it, or something, that was something mentioned in the last meeting. And this was a problem. So that, for example, already checks for that. This would not be something that we, probably hope is something that we are able to fully implement at the moment, but maybe for the next iteration.	NULL
+7676	Yeah, I think that we would have a system where you can run a track, and then different controllers or algorithms for the path planning or so on, then we will be maybe nice yeah to check maybe like if the vehicle has left the track or I think there is also a rule about the maximum power that is can be used, or is allowed to be used? Yeah, yeah. Yeah. In addition to the history yeah just some checks would be nice.	F
+7677	Okay, so there's a need for it. We also had the idea, maybe the system could automatically check for some optimization, for example, if you let the simulation run, it runs, If you run a few simulations, behind each other, you could maybe randomly change some some inputs or some configurations, and the system realized, Oh, yeah, this works way better. Maybe you, that it automatically tells it I don't know, maybe if you say, yeah, it would be great if you know, if the steering angle was likely better, or something like that, or if it if the view, drive faster through a curve or something, it would be better if you drive slower there for a little bit more to drive something like that.	NULL
+7678	Yeah, they would actually be already, I think, part of the path planning or the control algorithms. Yeah, for us, I think it's really mainly just simulating the vehicle and the track. And, and, and but the optimization problem called fastest lap time or something should actually already do that. Path planning or the control. Okay. So yeah, I mean, if it would have been done in the in this in the simulation tool, then we can also directly use it in the path planner. So	F
+7679	yeah, okay. So basically just simulate the algorithm	F
+7680	That would be nice Yeah, I think it will be also a lot of work.	F
+7681	Yeah, should there be different modes? When we wrote this question we didn't have a quite good idea of what different modes could be, but maybe you have a good idea.	NULL
+7682	I think about modes. Yeah, maybe the one I mentioned so with that output is or it can be also all the time both the ground truth of all the values or states and also of the simulated states or sensors and maybe yeah that is that will be more kind of which track so there are four categories like acceleration just the straight track and skip ban and so on maybe a mode for those different categories.	F
+7683	we also had the idea of you between maybe fast mode and a little bit of a slower mode where the slower mode is maybe a little bit more accurate or to get more output and one where you just can have a look at it and say okay it should work in the simulation it works it's just very quick and quick and dirty,	F
+7684	Yeah that would be actually yeah an even easier approached than the one is used now in the yeah yeah just to have yeah we feel very simple model another really complicated dynamic modeler so we'll be yeah probably yeah nice yeah we have.	F
+7685	Do you have any other ideas no matter how crazy	NULL
+7686	i mean if we would take the simulation i mean the perfect simulation in the end, i think it's called hardware in the loop where we would really have recon unit right now we have a chance for mary calculate or all our stuff and another vehicle there's a ecu it's called electronic control unit this one controls the motors and the steering and so on and that would be probably the best if we yeah if we end there we communicate with this computer or this ecu with can is the protocol it's also used in the course on nearly all the course okay and automotive industry yeah and if you can just keep them have like a pc that runs like the simulation on it and then it gives us back that we would input the steering angle or an acceleration demand and it would give back us the position of the car and the real current of the motor or steering angle whatever yeah so that we could actually just run our code here and it would actually indeed should behave like if it would be the real vehicle.	F
+7687	so it should behave like all it should be executed on the car	NULL
+7688	no it should not be executed on the car it should just on any computer for example and but it should behave like the real vehicle okay yeah then you could also test like the communication with the vehicle and then it should be really plug and play a field would work if they code then would work on our laptop then it would also work on the real week yeah but that's maybe probably too far	F
+7689	well it's something that the next team can work on or improve it yeah i think we've pretty much have everything do you have something to add or some questions that you want to ask or maybe something that you also wanted to add to we didn't ask right	NULL
+7690	no i think for us it was this week that we could run different batches of simulation i don't know that would be something i think the most important for us	F
+7691	okay	NULL
+7692	maybe i don't know how to store the data this may be also an open problem i don't know i mean you i think he would generate a lot of data and then have to deal with all	NULL
+7693	yeah yeah i think we probably gonna just store it in some either json files or csv or something yeah but i also think we will just save as much as possible and then in the end you can just get the information that you want if we can have a small program where you can say yeah i just want the very basics the most important things as you said the acceleration. So on, it you'll see that and maybe you need in different mode very Yeah. everything we know about the simulation just put on the screen. Yeah, maybe something like that. Yeah. Yeah. Okay, that's pretty much it, thank you for your time.	F
+7694	Yeah no problem.	NULL
+1	 What information do you need from this system that you do not have now?	NULL
+2	 We need a system that can simulate the autonomous race car and calculate different simulation scenarios. Right now we do not have any such existing system, however we know that these exist from other Formula Student teams. Maybe there are even open source systems. Primarly, this tool should be concepted for the Driverless team, but maybe should be able to be adapted in the future to include simulations for the mechanical and electrical simulations for things like aerodynamics, suspension force and so on calculations.	F
+3	 How would you like to see this information? What should be the output?	NULL
+4	 It would be nice to have this as a desktop software program that generates the simulations (maybe using matlab simulink or other simulation programs) and then displays the simulations and calculated outputs.	F
+5	 What should our version do that others cannot?	NULL
+6	 I don't know any other versions.	NULL
+7	 What Operating Systems should be supported?	NULL
+8	 Of the car? Sorry, this is unclear to me	NULL
+9	 What are the must have requirements?	NULL
+10	 The tool should provide different simulation scenarios of which the user can pick which one to run.	F
+11	 How accurate does the system need to be?	NULL
+12	 Very accurate as this needs to be valid for real-time systems.	A
+13	 In what shape or form do we receive tracks?	NULL
+14	 Please ask Mapping team (Nicolas Borla or Jonas Langenegger).	NULL
+15	 What kind of sensors do you use?	NULL
+16	 GPS, IMU, Wheel Encoders, Actuators for steering, drives and brakes, camera, lidar	A
+17	 How do they work?	NULL
+18	 How detailed does this question need to be answered?	NULL
+19	 In what form do we have access to the pathfinding/decision making algorithm?	NULL
+20	 Please ask jonas Langenegger	NULL
+21	 Where is it located?	NULL
+22	 Please ask jonas Langenegger	NULL
+23	 Is it finished?	NULL
+24	 Probably not	NULL
+25	 In what circumstances is the System used?	NULL
+26	 To test the driverless environment before competitions	A
+27	 During Development?	A
+28	 Yes	A
+29	 Before a race?	A
+30	 Yes	A
+31	 Who uses the System?	NULL
+32	 The driverless team, who develop algorithms and sensor data for the car. Maybe specifically people in control over the controls / actuators, and driverless calculation algorithms	A
+33	 What level of expertise do they have?	NULL
+34	 They should be experts on the systems that they develop.	NULL
+35	 What are your team specific priorities for the system?	NULL
+36	 What constraints do we have?	NULL
+37	 Monetary constraints (zero budget for this) and time constraint (first real prototype should be ready at the End of june).	A
+38	 Are there technical constraints to developing this system?	NULL
+39	 Monetary costs, need to approve a budget in case one is needed	A
+40	 Are there resource constraints in maintaining the system?	NULL
+41	 Monetary costs and time costs, space constraints are unclear should be none.	A
+42	 Are there any security concerns? (sensitive data, things that must be kept secret)	NULL
+43	 I believe not?	NULL
+44	 Is there data that should be kept save in case of a system crash?	NULL
+45	 Yes, it might be smart to save the simulated data and have backups. If the system crashes during a simulation, the current simulation data might not have to be saved	F
+46	 Do we need a History of tested simulations and their results?	F
+47	 Yes please	F
+48	 When do you need a prototype?	NULL
+49	 Final prototype in June 2021. Maybe some smaller prototypes or showing of advancement before that would be great.	A
+50	 Who should we talk to in addition to you?	NULL
+51	 The team.	NULL
+52	 Very Specific Questions, some might not be of your concern.	NULL
+53	 Should there be a function to report bugs and crashes?	F
+54	 Yes	F
+55	 What languages need to be supported?	A
+56	 English	A
+57	 Is only English okay?	A
+58	 Yes	A
+59	 Should there be the possibility to add additional languages?	NULL
+60	 No	NULL
+61	 Should the System check for rule conformity?	F
+62	 Would be a nice to have	F
+63	 What should be checked?	NULL
+64	 If the input is even in a valid range. For example no velocity > 300 km/h and so on.	F
+65	 Should the system check for optimisation?	F
+66	 Yes!	F
+67	 Should there be different modes?	NULL
+68	 Yes, there should be simulations for the different missions which correspond to the race competitions	F
+69	 What modes?	NULL
+70	 Acceleration, Skidpad, Autocross, Trackdrive, EBS test, Inspection, Manual driving.	F
+71	 What are ideas that you have? No matter how crazy	NULL
+72	 Maybe accounts for the tools, so that one person can save their simulations and share with other users, or teams and can check the history of their simulated data.	F

@@ -2,4 +2,5 @@
 .idea
 *.iml
 src/main/resources/ch/zhaw/hassebjo/glove.6B.100d.txt
-output/models/model_6b_100d_v1_0.bin
+src/main/resources/ch/zhaw/hassebjo/output/models/old/model_6b_100d_v1_0.bin
+/src/main/resources/ch/zhaw/hassebjo/output/models/model_6b_100d_v1_0.bin

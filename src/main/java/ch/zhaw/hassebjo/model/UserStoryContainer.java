@@ -1,4 +1,4 @@
-package ch.zhaw.widmemor.model;
+package ch.zhaw.hassebjo.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,6 @@ import java.util.List;
 public class UserStoryContainer {
 
     private List<UserStory> userStories = new ArrayList<>();
-
 
     public List<UserStory> getUserStories() {
         return userStories;

@@ -1,6 +1,6 @@
-package ch.zhaw.widmemor;
+package ch.zhaw.hassebjo;
 
-import ch.zhaw.widmemor.model.UserStoryContainer;
+import ch.zhaw.hassebjo.model.UserStoryContainer;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,8 +17,6 @@ public class ClassifyController {
         this.classifyUserStories = classifyUserStories;
     }
 
-
-    //TODO makes this return a JSON containing all "classified" user stories
     @PostMapping("classify")
     public ResponseEntity<UserStoryContainer> uploadFile(@RequestPart("file") MultipartFile file,
                                                          @RequestParam("projectId") Integer projectId) {
@@ -39,4 +37,22 @@ public class ClassifyController {
         return new ResponseEntity<>(userStoryContainer, HttpStatus.OK);
     }
 
+    @PostMapping("train")
+    public ResponseEntity<UserStoryContainer> trainModel(@RequestPart("file") MultipartFile file) {
+        if (null == file.getOriginalFilename()) {
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
+        try {
+            byte[] bytes = file.getBytes();
+
+            System.out.println("File received - Beginning training");
+            classifyUserStories.trainModel(file.getBytes());
+
+
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
 }

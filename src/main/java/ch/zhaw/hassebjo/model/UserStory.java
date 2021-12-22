@@ -1,4 +1,4 @@
-package ch.zhaw.widmemor.model;
+package ch.zhaw.hassebjo.model;
 
 /**
  * This class is a representation of a user story as defined by the Storyscreen application for ease of transmitting it
@@ -16,12 +16,9 @@ public class UserStory {
 
     //This is the "result" from the evaluation/algorithm
     private String shortDescription;
-    //Storyscreen uses a dropdown list. Probably best to send found UserRole as String and then convert it while
-    // processing it in the Storyscreen
     private int userRole;
     //Filled with placeholder
     private int themeId;
-
 
     public UserStory(Integer projectId, String shortDescription) {
         this.projectId = projectId;
